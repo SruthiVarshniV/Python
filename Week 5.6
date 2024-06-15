@@ -1,0 +1,13 @@
+s=input()
+cl,cn,c=0,0,0
+for i in s:
+    if(i.lower() in 'abcdefghijklmnopqrstuvwxyz'):
+        cl+=1
+    elif(i in '0123456789'):
+        cn+=1
+    else:
+        c+=1
+        
+print(cl)
+print(cn)
+print(c)
