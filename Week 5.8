@@ -1,0 +1,12 @@
+s1=input()
+s2=input()
+n=int(input())
+count=0
+s3=''
+for i in s1:
+    if( i in s2 and i not in s3):
+        s3+=i
+        count+=1
+    if(count==n):
+        break
+print(s3)
